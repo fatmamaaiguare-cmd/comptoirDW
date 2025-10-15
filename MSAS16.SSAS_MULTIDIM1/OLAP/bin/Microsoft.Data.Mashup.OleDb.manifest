@@ -1,0 +1,8 @@
+﻿<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+  <assemblyIdentity type="win32" name="Microsoft.Data.Mashup.OleDb" version="1.0.0.0" publicKeyToken="31bf3856ad364e35"></assemblyIdentity>
+  <clrClass clsid="{fd5c4311-a212-40e4-8020-a5aeaa68b329}"
+            progid="Microsoft.Data.Mashup.OleDb"
+            threadingModel="Both"
+            name="Microsoft.Data.Mashup.OleDb.StandaloneMashupDataSource"
+            runtimeVersion="v2.0.50727" />
+</assembly>

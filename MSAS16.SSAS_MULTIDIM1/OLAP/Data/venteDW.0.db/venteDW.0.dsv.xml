@@ -1,0 +1,150 @@
+<Load xmlns="http://schemas.microsoft.com/analysisservices/2003/engine" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100="http://schemas.microsoft.com/analysisservices/2008/engine/100" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl410="http://schemas.microsoft.com/analysisservices/2012/engine/410" xmlns:ddl410_410="http://schemas.microsoft.com/analysisservices/2012/engine/410/410" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:ddl600="http://schemas.microsoft.com/analysisservices/2013/engine/600" xmlns:ddl600_600="http://schemas.microsoft.com/analysisservices/2013/engine/600/600" xmlns:ddl700="http://schemas.microsoft.com/analysisservices/2018/engine/700" xmlns:ddl700_700="http://schemas.microsoft.com/analysisservices/2018/engine/700/700" xmlns:ddl800="http://schemas.microsoft.com/analysisservices/2018/engine/800" xmlns:ddl800_800="http://schemas.microsoft.com/analysisservices/2018/engine/800/800" xmlns:ddl900="http://schemas.microsoft.com/analysisservices/2019/engine/900" xmlns:ddl900_900="http://schemas.microsoft.com/analysisservices/2019/engine/900/900" xmlns:ddl910="http://schemas.microsoft.com/analysisservices/2020/engine/910" xmlns:ddl910_910="http://schemas.microsoft.com/analysisservices/2020/engine/910/910" xmlns:ddl920="http://schemas.microsoft.com/analysisservices/2020/engine/920" xmlns:ddl920_920="http://schemas.microsoft.com/analysisservices/2020/engine/920/920" xmlns:ddl921="http://schemas.microsoft.com/analysisservices/2021/engine/921" xmlns:ddl921_921="http://schemas.microsoft.com/analysisservices/2021/engine/921/921" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><ParentObject><DatabaseID>venteDW</DatabaseID></ParentObject><ObjectDefinition><DataSourceView><Name>venteDW</Name><ID>venteDW</ID><CreatedTimestamp>2025-05-28T05:03:31.3</CreatedTimestamp><LastSchemaUpdate>2025-05-28T05:03:31.3</LastSchemaUpdate><ObjectVersion>0</ObjectVersion><ObjectID>966DCD96-F826-44BC-A7E3-5398E82D98AC</ObjectID><Ordinal>0</Ordinal><PersistLocation>0</PersistLocation><System>false</System><DataFileList/><Description/><Annotations xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+              <Annotation>
+                <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+                <Value>true</Value>
+              </Annotation>
+              <Annotation>
+                <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+                <Value>_ALL_TABLES_</Value>
+              </Annotation>
+              <Annotation>
+                <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:NameMatchingCriteria</Name>
+                <Value>1</Value>
+              </Annotation>
+              <Annotation>
+                <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+                <Value/>
+              </Annotation>
+              <Annotation>
+                <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+                <Value>true</Value>
+              </Annotation>
+              <Annotation>
+                <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+                <Value>
+                  <Layouts xmlns="">
+                    <Diagram>
+                      <Name>_ALL_TABLES_</Name>
+                      <DiagramLayout/>
+                      <ShowRelationshipNames>False</ShowRelationshipNames>
+                      <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+                      <DiagramViewPortLeft>0</DiagramViewPortLeft>
+                      <DiagramViewPortTop>0</DiagramViewPortTop>
+                      <DiagramBoundingLeft>0</DiagramBoundingLeft>
+                      <DiagramBoundingTop>0</DiagramBoundingTop>
+                      <DiagramZoom>100</DiagramZoom>
+                    </Diagram>
+                  </Layouts>
+                </Value>
+              </Annotation>
+            </Annotations><Schema xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+              <xs:schema id="venteDW" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+                <xs:element name="venteDW" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="7139f46b-ddc6-4121-85b2-c1f3f3d58011">
+                  <xs:complexType>
+                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                      <xs:element name="dbo_Dim_Article" msprop:design-time-name="33f55c85-d225-459e-bdce-816ab68d97a1" msprop:FriendlyName="Dim_Article" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="Dim_Article">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="noArticle" msprop:FriendlyName="noArticle" msprop:DbColumnName="noArticle" msprop:design-time-name="da44d24d-048f-4928-b36b-49055effb801" type="xs:int"/>
+                            <xs:element name="description" msprop:FriendlyName="description" msprop:DbColumnName="description" msprop:design-time-name="827ab7ff-6e80-4e08-b4b7-85f2c6d6c15c" minOccurs="0">
+                              <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                  <xs:maxLength value="255"/>
+                                </xs:restriction>
+                              </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="prixUnitaire" msprop:FriendlyName="prixUnitaire" msprop:DbColumnName="prixUnitaire" msprop:design-time-name="94ffcaa4-e7df-473d-a7a0-0e3c0cdb52d4" type="xs:decimal" minOccurs="0"/>
+                            <xs:element name="quantiteEnStock" msprop:FriendlyName="quantiteEnStock" msprop:DbColumnName="quantiteEnStock" msprop:design-time-name="c173e3bf-f223-4f9d-9695-c952562062e9" type="xs:int" minOccurs="0"/>
+                            <xs:element name="catégorie" msprop:FriendlyName="catégorie" msprop:DbColumnName="catégorie" msprop:design-time-name="bd6cc3e9-3b6e-4a5a-9b22-0ab0e1490754" minOccurs="0">
+                              <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                  <xs:maxLength value="100"/>
+                                </xs:restriction>
+                              </xs:simpleType>
+                            </xs:element>
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                      <xs:element name="dbo_Dim_Client" msprop:design-time-name="4a8ba45d-58fe-4e62-8e9c-b03b40f7d941" msprop:FriendlyName="Dim_Client" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="Dim_Client">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="noClient" msprop:FriendlyName="noClient" msprop:DbColumnName="noClient" msprop:design-time-name="e4319b7c-a408-4d0b-8900-df4e083d2dab" type="xs:int"/>
+                            <xs:element name="nomClient" msprop:FriendlyName="nomClient" msprop:DbColumnName="nomClient" msprop:design-time-name="f918fb5f-7101-484c-9338-873183c8c252" minOccurs="0">
+                              <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                  <xs:maxLength value="100"/>
+                                </xs:restriction>
+                              </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="idV" msprop:FriendlyName="idV" msprop:DbColumnName="idV" msprop:design-time-name="46c3c470-553b-4fcf-846c-a57514814c8c" type="xs:int" minOccurs="0"/>
+                            <xs:element name="nomVille" msprop:FriendlyName="nomVille" msprop:DbColumnName="nomVille" msprop:design-time-name="d8f09f08-ccf1-46c2-b744-ea17f476e680" minOccurs="0">
+                              <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                  <xs:maxLength value="100"/>
+                                </xs:restriction>
+                              </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="nomPays" msprop:FriendlyName="nomPays" msprop:DbColumnName="nomPays" msprop:design-time-name="17d4dc95-30e8-41e5-ba35-c43c4c770b21" minOccurs="0">
+                              <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                  <xs:maxLength value="100"/>
+                                </xs:restriction>
+                              </xs:simpleType>
+                            </xs:element>
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                      <xs:element name="dbo_dim_Temps" msprop:design-time-name="f4d73fb8-5f27-47f8-9dca-ee75141d28bc" msprop:FriendlyName="dim_Temps" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="dim_Temps">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="SK_Temps" msprop:FriendlyName="SK_Temps" msprop:DbColumnName="SK_Temps" msprop:design-time-name="1194dae2-632e-4a2f-bee7-79d56f481d08" type="xs:int"/>
+                            <xs:element name="NB_JOUR_MOIS" msprop:FriendlyName="NB_JOUR_MOIS" msprop:DbColumnName="NB_JOUR_MOIS" msprop:design-time-name="c5492273-af52-46a5-9d25-5d29ee5ebcf5" type="xs:int" minOccurs="0"/>
+                            <xs:element name="NB_MOIS" msprop:FriendlyName="NB_MOIS" msprop:DbColumnName="NB_MOIS" msprop:design-time-name="7061204c-6824-4172-92ee-07a106e5c749" type="xs:int" minOccurs="0"/>
+                            <xs:element name="NB_TRIMISTRE" msprop:FriendlyName="NB_TRIMISTRE" msprop:DbColumnName="NB_TRIMISTRE" msprop:design-time-name="20e196f6-f0e4-4858-87a0-23509805f1ad" type="xs:int" minOccurs="0"/>
+                            <xs:element name="NB_ANNEE" msprop:FriendlyName="NB_ANNEE" msprop:DbColumnName="NB_ANNEE" msprop:design-time-name="ae2c00e6-293a-463a-9d2c-85740f519f2f" type="xs:int" minOccurs="0"/>
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                      <xs:element name="dbo_fait_table" msprop:design-time-name="2774519c-2a7e-474d-b051-0f321ef79238" msprop:FriendlyName="fait_table" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="fait_table">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="noArticle" msprop:FriendlyName="noArticle" msprop:DbColumnName="noArticle" msprop:design-time-name="8080c14d-0ba8-45e4-9891-46ba836496b2" type="xs:int"/>
+                            <xs:element name="noClient" msprop:FriendlyName="noClient" msprop:DbColumnName="noClient" msprop:design-time-name="6d2dd21b-496e-486c-96ae-bbd0fc9577de" type="xs:int"/>
+                            <xs:element name="SK_Temps" msprop:FriendlyName="SK_Temps" msprop:DbColumnName="SK_Temps" msprop:design-time-name="7678784e-f129-42b9-9b0e-7f26ab717474" type="xs:int"/>
+                            <xs:element name="NB_Vente" msprop:FriendlyName="NB_Vente" msprop:DbColumnName="NB_Vente" msprop:design-time-name="3eb28450-ab38-4e74-b919-09bcb13cb7ec" type="xs:int" minOccurs="0"/>
+                            <xs:element name="NB_Qte" msprop:FriendlyName="NB_Qte" msprop:DbColumnName="NB_Qte" msprop:design-time-name="0389702a-0956-4cac-ba4b-2c2f74c83e2c" type="xs:int" minOccurs="0"/>
+                            <xs:element name="NB_MT_Vente" msprop:FriendlyName="NB_MT_Vente" msprop:DbColumnName="NB_MT_Vente" msprop:design-time-name="cf478e4c-dd5e-47ce-b6ab-2f367428bd24" type="xs:float" minOccurs="0"/>
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:complexType>
+                  <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//dbo_Dim_Article"/>
+                    <xs:field xpath="noArticle"/>
+                  </xs:unique>
+                  <xs:unique name="dbo_Dim_Client_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//dbo_Dim_Client"/>
+                    <xs:field xpath="noClient"/>
+                  </xs:unique>
+                  <xs:unique name="dbo_dim_Temps_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//dbo_dim_Temps"/>
+                    <xs:field xpath="SK_Temps"/>
+                  </xs:unique>
+                  <xs:unique name="dbo_fait_table_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//dbo_fait_table"/>
+                    <xs:field xpath="noArticle"/>
+                    <xs:field xpath="noClient"/>
+                    <xs:field xpath="SK_Temps"/>
+                  </xs:unique>
+                </xs:element>
+                <xs:annotation>
+                  <xs:appinfo>
+                    <msdata:Relationship name="fait_table-Dim_Article" msdata:parent="dbo_Dim_Article" msdata:child="dbo_fait_table" msdata:parentkey="noArticle" msdata:childkey="noArticle"/>
+                    <msdata:Relationship name="fait_table-Dim_Client" msdata:parent="dbo_Dim_Client" msdata:child="dbo_fait_table" msdata:parentkey="noClient" msdata:childkey="noClient"/>
+                    <msdata:Relationship name="fait_table-dim_Temps" msdata:parent="dbo_dim_Temps" msdata:child="dbo_fait_table" msdata:parentkey="SK_Temps" msdata:childkey="SK_Temps"/>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:schema>
+              <venteDW xmlns=""/>
+            </Schema><DataSourceID>venteDW</DataSourceID></DataSourceView></ObjectDefinition></Load>
